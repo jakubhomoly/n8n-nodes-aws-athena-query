@@ -28,7 +28,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 Install the package in your n8n root folder:
 
 ```bash
-npm install n8n-nodes-aws-athena-query
+npm install @indebted/n8n-nodes-aws-athena-query
 ```
 
 ## Operations
