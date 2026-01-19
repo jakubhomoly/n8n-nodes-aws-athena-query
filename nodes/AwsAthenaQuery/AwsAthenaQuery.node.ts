@@ -298,8 +298,8 @@ export class AwsAthenaQuery implements INodeType {
 				name: 'workgroup',
 				type: 'string',
 				default: '',
-				placeholder: 'primary',
-				description: 'Name of the Athena workgroup to use for query execution',
+				placeholder: '',
+				description: 'Name of the Athena workgroup to use for query execution. Defaults to primary',
 			},
 			{
 				displayName: 'Query Timeout (Seconds)',
